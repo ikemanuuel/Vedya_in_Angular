@@ -1,0 +1,121 @@
+.section-1{
+    width: 1440px;
+    height: 816px;
+    display: flex;
+   
+    
+    .container{
+      display: flex;
+      position: relative;
+
+      .content-container{
+        display: flex;
+        position: absolute;
+        height: 628px;
+        width: 1140px;
+        background-color: white;
+        margin-top: 102px;
+        margin-left: 169px;
+        border: 1px solid var(--secondary-color);
+        border-radius: 5px;
+
+        .content{
+          width: 426px;
+          height: 278px;
+       
+          margin: 175px 0px 175px 6px;
+          display: flex;
+          
+          flex-direction: column;
+          align-items: center;
+
+
+          img{
+            margin-left: 5px;
+          }
+          h1{
+            display: flex;
+            flex-direction: column;
+            .title{
+              color:var(--tertiary-color);
+              text-align: center;
+              font-family: 'Archivo', sans-serif;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              letter-spacing: 20px;
+              text-transform: uppercase;
+              margin-top: 18px;
+              margin-left:6px ;
+            }
+
+            .highlight-title{
+              text-align: center;
+              font-family: var(--primary-font);
+              font-size: 100px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 1em;
+              background: linear-gradient(180deg, #E8B16F 0%, var(--secondary-color) 100%);
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              text-transform: uppercase;
+              margin-top: 10px;
+            }
+          }  
+        }
+
+
+        .right-content{
+        
+
+
+          .slide-image{
+            display: flex;
+            gap: 10px;
+            margin-left: 31px;
+            margin-top: 45px;
+            background-color: #fdf1f1;
+            height: 507px;
+            
+          }
+
+          .button{
+            display: flex;
+            flex-direction: row;
+            gap: 42px;
+           justify-content: center;
+           margin-left: 90px;
+           margin-top: 20px;
+           
+           
+            .svg{
+              display: flex;
+              flex-direction: row;
+              gap: 42px;
+           
+            }
+          }
+
+        }
+  
+        
+        }
+        
+        .bg{
+          background-color: #E8B16F;
+          height: 816px;
+          width: 701px; 
+         
+          position: absolute; /* Position .bg absolutely within .container */
+          left: 739px; /* Align .bg to the right */
+          z-index: -1;
+        
+  
+          
+        }
+    }
+    
+  }

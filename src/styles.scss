@@ -1,0 +1,144 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color:#6C625B;
+    --secondary-color:#AF753B;
+    --tertiary-color:#49403A;
+    --color-light:#ffffff;
+    --primary-font: 'inknut antiqua';
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    ::-webkit-scrollbar {
+        width: 5px; /* Width of the scrollbar */
+      }
+      
+      /* Style the horizontal scrollbar track */
+      ::-webkit-scrollbar:horizontal{
+        height: 5px;
+        width: 1px;
+      }
+      
+      /* Style the scrollbar thumb */
+      ::-webkit-scrollbar-thumb {
+        background: #888; /* Background color of the scrollbar thumb */
+        border-radius: 20px; /* Rounded corners for the scrollbar thumb */
+      }
+      
+      /* Style the scrollbar thumb on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Background color of the scrollbar thumb on hover */
+      }
+      
+    body{
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+//Font Inknut Antiqua
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Poppins:wght@200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Poppins:wght@200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-medium {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-semibold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-bold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-extrabold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-black {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .inknut-antiqua-light {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-medium {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inknut-antiqua-bold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inknut-antiqua-black {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+

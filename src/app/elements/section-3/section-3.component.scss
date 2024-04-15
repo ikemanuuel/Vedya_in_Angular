@@ -1,0 +1,33 @@
+
+.section-3{
+    width: 1140px;
+    height: 197px;
+    margin-top: 160px;
+    background: #EDEDED;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+     
+      .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--tertiary-color);
+        text-align: center;
+        font-family: var(--primary-color);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1em; /* 112.5% */
+        text-transform: uppercase;
+
+        span{
+          line-height: 1em;
+        }
+      }
+    }
+  }
