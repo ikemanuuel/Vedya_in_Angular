@@ -1,7 +1,7 @@
 .section-5{
     width: 1140px;
     height: 1358.9px;
-    background-color: #ffffff;
+    background-color: var(--light-color);
     margin-right: auto;
     margin-left: auto;
     margin-top: 150px;
@@ -19,7 +19,7 @@
           .details-row-1 {
             width: 400px;
             height: 318px;
-            background-color: #E8B16F;
+            background-color: var(--fourth-color);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -42,12 +42,12 @@
             }
             a{
               text-decoration: none;
-              color: #E8B16F;
+              color: var(--fourth-color);
             }
             .title{
               font-family: var(--primary-font), serif;
               font-size: 40px;
-              color: white;
+              color: var(--light-color);
               text-transform: uppercase;
               line-height: 1em;
               justify-content: center;
@@ -68,7 +68,7 @@
           .details-row-2{
             width: 400px;
             height: 318px;
-            background-color: #E8B16F;
+            background-color: var(--fourth-color);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -83,10 +83,9 @@
             .title{
               font-family: var(--primary-font), serif;
               font-size: 40px;
-              color: white;
+              color: var(--light-color);
               text-transform: uppercase;
               line-height: 1em;
-              /* justify-content: center; */
               margin-bottom: 20px;
               text-align: center;
               width: 50%;
@@ -108,7 +107,7 @@
             }
             a{
               text-decoration: none;
-              color: #E8B16F;
+              color: var(--fourth-color);
             }
           }
         }
@@ -121,7 +120,7 @@
           .details-row-3 {
             width: 400px;
             height: 318px;
-            background-color: #E8B16F;
+            background-color: var(--fourth-color);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -143,12 +142,12 @@
             }
             a{
               text-decoration: none;
-              color: #E8B16F;
+              color: var(--fourth-color);
             }
             .title{
               font-family: var(--primary-font), serif;
               font-size: 40px;
-              color: white;
+              color: var(--light-color);
               text-transform: uppercase;
               line-height: 1em;
               justify-content: center;

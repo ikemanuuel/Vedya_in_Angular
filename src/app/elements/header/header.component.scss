@@ -37,10 +37,9 @@
     }
     .right-side{
       margin-left: 186px;
-      color: #f31e1e;
       width: 154px;
       height: 44px;
-      background-color: 'inkut antiqua';
+      background-color: var(--primary-color);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -56,7 +55,7 @@
           border-bottom-left-radius: 20px;
         a{
           text-decoration: none;
-          color: var(--color-light);
+          color: var(--light-color);
           text-align: center;
           font-family: var(--primary-font);
           font-size: 16px;

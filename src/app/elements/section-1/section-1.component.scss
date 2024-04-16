@@ -13,7 +13,7 @@
         position: absolute;
         height: 628px;
         width: 1140px;
-        background-color: white;
+        background-color: var(--light-color);
         margin-top: 102px;
         margin-left: 169px;
         border: 1px solid var(--secondary-color);
@@ -57,7 +57,7 @@
               font-style: normal;
               font-weight: 700;
               line-height: 1em;
-              background: linear-gradient(180deg, #E8B16F 0%, var(--secondary-color) 100%);
+              background: linear-gradient(180deg,var(--fourth-color) 0%, var(--secondary-color) 100%);
               background-clip: text;
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -105,7 +105,7 @@
         }
         
         .bg{
-          background-color: #E8B16F;
+          background-color: var(--fourth-color);
           height: 816px;
           width: 701px; 
          
